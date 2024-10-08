@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAMBHRAM | course</title>
+
+    
+    <link rel="stylesheet" href="./index.css" />
+    <!-- <link rel="stylesheet" href="./logo.css" /> -->
+    <style>
+        body{
+            background-image: none;
+        }
+        body{
+            background-color: whitesmoke;
+        }
+      /* .center1 {
+        text-align: center;
+        width: 100%;
+        
+      } */
+      #container {
+        margin: 20px;
+        padding: 10px;
+        display: inline-block;
+        border: 1px solid rgb(197, 195, 195);
+        width: 350px;
+        background-color: white;
+        border-radius: 15px;
+      }
+      img {
+        width: 100%;
+        border-radius: 15px;
+      }
+      .list {
+        word-spacing: 5px;
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+      .list span {
+        border: 1px solid grey;
+        padding: 5px;
+        border-radius: 25px;
+      }
+      .content {
+        display: inline-block;
+        text-align: left;
+        font: 1em sans-serif;
+      }
+      .content1{
+        text-align: center;
+      }
+      .center {
+        display: inline-block;
+        background-color: rgb(146, 213, 239);
+        border-radius: 30px;
+        width: 100px;
+       text-align: center; 
+       padding: 10px;
+       color: blue;
+       cursor: pointer;
+      }
+      .center:hover{
+        background-color: rgb(95, 201, 243) ;
+      }
+      p{
+        font-size: large;
+        line-height: 27px;
+      }
+
+
+      #content_grid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+      }
+
+      @media screen and (max-width: 1030px) {
+       
+      #content_grid{
+        display: grid;
+        grid-template-columns: auto;
+      }
+
+      #container {
+        width: 300px;
+      }
+      }
+
+
+
+      .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-100%);
+        transition: all 1s;
+      }
+      .show {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+      }
+      @media (prefers-reduced-motion) {
+        .hidden {
+          transition: none;
+        }
+      }
+
+
+      .logo:nth-child(2){
+        transition-delay: 200ms;
+      }
+      .logo:nth-child(3){
+        transition-delay: 400ms;
+      }
+      
+      .logo:nth-child(5){
+        transition-delay: 200ms;
+      }
+      .logo:nth-child(6){
+        transition-delay: 400ms;
+      }
+      .logo:nth-child(8){
+        transition-delay: 200ms;
+      }
+      .logo:nth-child(9){
+        transition-delay: 400ms;
+      }
+      
+      
+    </style>
+
+    
+    <link rel="shortcut icon" href="./icon/logo.jpg" type="image/x-icon" />
+    
+  </head>
+  <body>
+    
+    
+
+    
+    <div id="navigation_phone">
+      <a href="./index.html">Home</a>
+      <a href="./events.html">Events</a>
+      <a href="./course.html">Course</a>
+      <a href="./about.html">About</a>
+    </div>
+    
+    <h1 style="text-align: center;">Course</h1>
+    
+
+<div id="content_grid">
+    <div class="center1 hidden logo">
+      <div id="container">
+        <img
+          src="./courses_images/Computer_Science_Engineering.jpeg"
+          alt="no photo found"
+        />
+        <div class="list">
+          <span>neural networks</span>
+          <span>deep learning</span>
+          
+        </div>
+        <div class="content">
+          <h1>Computer Science & Engineering <br> (CSE)</h1>
+          <p>
+            Empowering innovation and driving the future through the limitless potential of technology and computation.
+          </p>
+          <div class="content1">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="center1 hidden logo">
+      <div id="container">
+        <img
+          src="./courses_images/cyber_security.jpeg"
+          alt="no photo found"
+        />
+        <div class="list">
+          <span>ethical hacking</span>
+          <span>network security</span>
+          
+        </div>
+        <div class="content">
+          <h1>Cyber Security <br>(Cyb sec)</h1>
+          <p>
+            Safeguarding digital landscapes by protecting data and systems from evolving threats and cyber attacks.
+          </p>
+          <div class="content1">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center1 hidden logo">
+      <div id="container">
+        <img
+          src="./courses_images/information_science.jpeg"
+          alt="no photo found"
+        />
+        <div class="list">
+          <span>data analytics</span>
+          
+          <span> data management</span>
+        </div>
+        <div class="content">
+          <h1>Information Science & Engineering <br>(ISE)</h1>
+          <p>
+            Information Science & Engineering
+          </p>
+          <div class="content1">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="center1 hidden logo">
+      <div id="container">
+        <img
+          src="./courses_images/mechanical_enginearing.jpeg"
+          alt="no photo found"
+        />
+        <div class="list">
+          <span>robotics</span>
+          <span>thermodynamics</span>
+        </div>
+        <div class="content">
+          <h1>Mecanical Engineering <br>(MECH)</h1>
+          <p>
+            Engineering the future through innovative design, analysis, and manufacturing of mechanical systems.
+          </p>
+          <div class="content1">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="center1 hidden logo">
+      <div id="container">
+        <img
+          src="./courses_images/civil.jpeg"
+          alt="no photo found"
+        />
+        <div class="list">
+          <span>structural engineering</span>
+          <span>transportation systems</span>
+        </div>
+        <div class="content">
+          <h1>Civil Engineering <br>(CIV)</h1>
+          <p>
+            Building sustainable infrastructure that shapes communities and improves quality of life worldwide.
+          </p>
+          <div class="content1">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center1 hidden logo">
+      <div id="container">
+        <img
+          src="./courses_images/MBA.jpeg"
+          alt="no photo found"
+        />
+        <div class="list">
+          <span> finance</span>
+          <span>marketing</span>
+        </div>
+        <div class="content">
+          <h1>Master of Business Administration  <br>(MBA)</h1>
+          <p>
+            Developing strategic leaders who drive organizational success through innovative management and global perspective.
+          </p>
+          <div class="content1">
+            
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  </body>
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+    const hiddenElements = document.querySelectorAll(".hidden");
+    hiddenElements.forEach((e1) => observer.observe(e1));
+  </script>
+</html>
